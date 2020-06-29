@@ -1,0 +1,77 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"information4": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 700,
+					"height": 500,
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"dataSource": "_TabLineCode{2}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [],
+					"textAlign": "left"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Schools dataclass class:",
+					"top": 35,
+					"left": 40,
+					"width": 200,
+					"height": 13,
+					"fontWeight": "bold",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"fontFamily": "Arial",
+					"fontSize": 14,
+					"textDecoration": "underline",
+					"fontStyle": "italic"
+				}
+			}
+		}
+	]
+}
