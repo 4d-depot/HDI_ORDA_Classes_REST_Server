@@ -9,7 +9,7 @@ Case of
 		
 		// This is for DOT NOTATION only. Do NOT change 16R5 !!! See below for more info
 		//Modify $option variable (below) for minimal version
-		If (Application version:C493<"1840")  // 16R5
+		If (Application version:C493<"1650")  // 16R5
 			ALERT:C41("Sorry, this \"How do I\" (HDI) example must be used with a newer version of 4D (v16 R6 and above)";"Quit")
 			QUIT 4D:C291
 		Else 
