@@ -10,7 +10,9 @@ End if
 
 $data:=New object:C1471()
 $data.request:="http://127.0.0.1:8044/rest/$catalog/getStatistics"
+
 $data.body:=New object:C1471()
+
 $data.origin:="DataStore"
 $data.title:=_Descriptions2{4}
 $data.sessionCookie:=Form:C1466.sessionCookie
